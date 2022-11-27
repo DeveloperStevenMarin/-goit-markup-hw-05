@@ -38,12 +38,12 @@
 .icon-details {
   width: 0.9423828125em;
 }
-.client{
+.client {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.icon-clients{
+.icon-clients {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -86,10 +86,10 @@ ul {
   padding-inline-start: 0px;
 }
 
-nav{
-display: flex;
-align-items: center;
-gap: 100px;
+nav {
+  display: flex;
+  align-items: center;
+  gap: 100px;
 }
 
 body {
@@ -368,31 +368,31 @@ nav a:hover {
   column-gap: 50px;
 }
 
-.navbar-info{
+.navbar-info {
   display: flex;
   gap: 10px;
 }
 .navbar-info:hover a,
-.navbar-info:hover  .navbar-icon{
+.navbar-info:hover .navbar-icon {
   color: var(--main-color);
   fill: var(--main-color);
 }
 
-.main-content-icon{
+
+.main-content-icon {
   width: 70px;
   height: 70px;
 }
-.main-content-icon:hover{
- fill: var(--main-color);
+.main-content-icon:hover {
+  fill: var(--main-color);
 }
-.team-card-icon{
+.team-card-icon {
   fill: var(--light-gray);
   height: 20px;
   width: 20px;
 }
 
-
-.team-social-media-button{
+.team-social-media-button {
   align-items: center;
   background-color: var(--white);
   border-radius: 100%;
@@ -401,11 +401,12 @@ nav a:hover {
   justify-content: center;
   width: 40px;
 }
-.team-social-media-button:hover,.team-social-media-button:hover  svg{
+.team-social-media-button:hover,
+.team-social-media-button:hover svg {
   background-color: var(--main-color);
   fill: var(--white);
 }
-.team-social-sites{
+.team-social-sites {
   display: flex;
   width: 260px;
   margin: 15px 0px;
@@ -413,7 +414,7 @@ nav a:hover {
   justify-content: center;
 }
 
-.social-media-icon{
+.social-media-icon {
   fill: var(--white);
 }
 .navbar-info a {
@@ -425,8 +426,21 @@ nav a:hover {
 }
 
 .nav-link {
-  margin: 0px;
+  line-height: 76px;
   font-weight: 600;
+}
+.current{
+  color: var(--main-color);
+  fill: var(--main-color);
+
+}
+.current:after {
+  display: block;
+  content: "";
+  height: 4px;
+  width: 100%;
+  background-color: #2196f3;
+  border-radius: 2px;
 }
 
 .navbar-list {
@@ -553,7 +567,7 @@ nav a:hover {
   justify-content: center;
   width: 40px;
 }
-.social-media-button svg{
+.social-media-button svg {
   height: 20px;
   width: 20px;
 }
