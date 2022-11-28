@@ -74,17 +74,9 @@
     <main>
       
       <article class="content">
-          <form action="" class="form" id="form">
-            <div class="close-icon" href="index.html">
-              <a href="index.html"><svg>
-                <use href="images/icons.svg#close"></use>
-              </svg></a>
-            </div>
-          <section class="form-content">
-          </section>
-        </form>
+         
         <h1 class="article-title">SOLUCIONES EFICACES PARA SU NEGOCIO</h1>
-        <a href="index.html#form" class="main-button">Solicite nuestro servicio</a>
+        <button class="main-button" data-modal-open>Solicite nuestro servicio</button>
       </article>
       <article>
         <ul class="main-content-list">
@@ -559,5 +551,26 @@
         </ul>
       </article>
     </footer>
+    
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button data-modal-close class="close-icon">
+          <svg>
+            <use href="images/icons.svg#close"></use>
+          </svg>
+        </button>
+        <form action=""></form>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
+    <!-- <form action="" class="form" id="form">
+      <div class="close-icon" href="index.html">
+        <a href="index.html"><svg>
+          <use href="images/icons.svg#close"></use>
+        </svg></a>
+      </div>
+    <section class="form-content">
+    </section>
+  </form> -->
   </body>
 </html>
