@@ -28,7 +28,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
   </head>
   <body>
-    
     <header class="navbar">
       <nav>
         <a href="#">
@@ -36,7 +35,9 @@
         </a>
         <ul class="navbar-list">
           <li>
-            <a id="estudio" href="index.html" class="nav-link current">Estudio</a>
+            <a id="estudio" href="index.html" class="nav-link current"
+              >Estudio</a
+            >
           </li>
           <li>
             <a id="portafolio" href="portfolio.html" class="nav-link"
@@ -72,11 +73,11 @@
       </ul>
     </header>
     <main>
-      
       <article class="content">
-         
         <h1 class="article-title">SOLUCIONES EFICACES PARA SU NEGOCIO</h1>
-        <button class="main-button" data-modal-open>Solicite nuestro servicio</button>
+        <button class="main-button" data-modal-open>
+          Solicite nuestro servicio
+        </button>
       </article>
       <article>
         <ul class="main-content-list">
@@ -196,9 +197,7 @@
                       class="team-social-media-button"
                     >
                       <svg class="team-card-icon">
-                        <use
-                          href="images/icons.svg#instagram"
-                        ></use>
+                        <use href="images/icons.svg#instagram"></use>
                       </svg>
                     </a>
                   </li>
@@ -234,9 +233,7 @@
                       class="team-social-media-button"
                     >
                       <svg class="team-card-icon">
-                        <use
-                          href="images/icons.svg#linkedin"
-                        ></use>
+                        <use href="images/icons.svg#linkedin"></use>
                       </svg>
                     </a>
                   </li>
@@ -295,9 +292,7 @@
                       class="team-social-media-button"
                     >
                       <svg class="team-card-icon">
-                        <use
-                          href="images/icons.svg#linkedin"
-                        ></use>
+                        <use href="images/icons.svg#linkedin"></use>
                       </svg>
                     </a>
                   </li>
@@ -356,9 +351,7 @@
                       class="team-social-media-button"
                     >
                       <svg class="team-card-icon">
-                        <use
-                          href="images/icons.svg#linkedin"
-                        ></use>
+                        <use href="images/icons.svg#linkedin"></use>
                       </svg>
                     </a>
                   </li>
@@ -417,9 +410,7 @@
                       class="team-social-media-button"
                     >
                       <svg class="team-card-icon">
-                        <use
-                          href="images/icons.svg#linkedin"
-                        ></use>
+                        <use href="images/icons.svg#linkedin"></use>
                       </svg>
                     </a>
                   </li>
@@ -551,7 +542,7 @@
         </ul>
       </article>
     </footer>
-    
+
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button data-modal-close class="close-icon">
@@ -559,18 +550,45 @@
             <use href="images/icons.svg#close"></use>
           </svg>
         </button>
-        <form action=""></form>
+        <h2 class="form-title">Deje sus datos, nos contactaremos con usted</h2>
+        <form action="" name="Contact information by user" class="contact-form">
+          <div class="custom-input">
+            <label for="" class="label-form">Nombre</label>
+            <svg>
+              <use href="images/icons.svg#user"></use>
+            </svg>
+            <input type="text" name="User name" id="" />
+          </div>
+          <div class="custom-input">
+            <label for="" class="label-form">Teléfono</label>
+            <svg>
+              <use href="images/icons.svg#phone-form"></use>
+            </svg>
+            <input type="tel" name="User phone" id="" />
+          </div>
+          <div class="custom-input">
+            <label for="" class="label-form">E-mail</label>
+            <svg>
+              <use href="images/icons.svg#mail-form"></use>
+            </svg>
+            <input type="email" name="User mail" id="" />
+          </div>
+          <div class="custom-input feedback">
+            <label for="" class="label-form">Comentarios</label>
+            <textarea class="form-text-area"name="" id="" cols="30" rows="10" placeholder="Introduzca el texto"></textarea>
+          </div>
+          <div class="terms-conditions-container">
+            <input type="checkbox" />
+            <label for="" class="label-form terms-conditions"
+              >Estoy de acuerdo con el boletín informativo y acepto los Términos
+              y Condiciones.</label
+            >
+          </div>
+
+          <button type="submit" class="submit-button">Enviar</button>
+        </form>
       </div>
     </div>
     <script src="./js/modal.js"></script>
-    <!-- <form action="" class="form" id="form">
-      <div class="close-icon" href="index.html">
-        <a href="index.html"><svg>
-          <use href="images/icons.svg#close"></use>
-        </svg></a>
-      </div>
-    <section class="form-content">
-    </section>
-  </form> -->
   </body>
 </html>
